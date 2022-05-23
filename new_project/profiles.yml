@@ -1,0 +1,49 @@
+my_new_demo:
+  outputs:
+
+    dev:
+      type: postgres
+      threads: 2
+      host: localhost
+      port: 5432
+      user: postgres
+      pass: Handsome1#
+      dbname: postgres
+      schema: dev_schema
+
+    prod:
+      type: postgres
+      threads: 2
+      host: localhost
+      port: 5432
+      user: postgres
+      pass: Handsome1#
+      dbname: postgres
+      schema: dev_schema
+
+  target: dev
+
+new_project:
+  outputs:
+
+    dev:
+      type: postgres
+      threads: 2
+      host: localhost
+      port: 5432
+      user: "{{ env_var('DBT_USER' }}"
+      pass: "{{ env_var('DBT_PASS' }}"
+      dbname: postgres
+      schema: dev_schema
+
+    prod:
+      type: postgres
+      threads: 2
+      host: localhost
+      port: 5432
+      user: "{{ env_var('DBT_USER' }}"
+      pass: "{{ env_var('DBT_PASS' }}"
+      dbname: postgres
+      schema: dev_schema
+
+  target: dev

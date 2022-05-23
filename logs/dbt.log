@@ -1,0 +1,25 @@
+
+
+============================== 2022-05-22 19:40:32.720556 | b567e3a1-f6cc-47bb-88f6-d7da099f0e81 ==============================
+19:40:32.720564 [info ] [MainThread]: Running with dbt=1.1.0
+19:40:32.720900 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/daveade/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'new_project', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+19:40:32.721033 [debug] [MainThread]: Tracking: tracking
+19:40:32.722219 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbdbb7062f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbdbb707280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbdbb705390>]}
+19:40:32.722648 [debug] [MainThread]: Starter project path: /home/daveade/anaconda3/envs/new_new/lib/python3.10/site-packages/dbt/include/starter_project
+19:40:36.164941 [info ] [MainThread]: 
+Your new dbt project "new_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+19:40:36.165186 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbdbb614220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbdbb707730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbdbb707280>]}
